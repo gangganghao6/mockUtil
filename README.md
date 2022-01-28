@@ -4,7 +4,7 @@
 
 ### createMockServer(port:String,type:String,template:Object)
 
-template命名规则：一般情况下采用 key_type，即 数据的key_数据类型的方式命名，若需要在数组中出现一种格式的类型，（[1,2,3]），则只需要以 type进行命名。在创建数组时，要接受一个包含length和instance的对象，其中instance为自定义的数据类型，length为数组大小
+template命名规则：一般情况下采用 key_type，即 数据的key_数据类型的方式命名，若需要在数组中出现一种格式的类型，（[1,2,3]），则只需要以 type进行命名。
 
 类型大全
 
